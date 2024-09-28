@@ -19,6 +19,7 @@
                 android:scaleType="fitXY"
                 />
             <TextView
+                style="@style/TextContent.BodyMedium.White.MarginAll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/dummy_photos"
@@ -36,45 +37,31 @@
         </FrameLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.HeadlineMedium.Bold"
             android:text="@string/dummy_value"
             android:textSize="32sp"
             android:layout_marginTop="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
             android:text="@string/title"
-            android:textStyle="bold"
             android:textSize="18sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
             android:text="@string/content_text"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             android:lineSpacingMultiplier="1"
             />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
             android:text="@string/specification"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
-            android:textSize="12sp"
             />
 
         <TableLayout
@@ -91,16 +78,13 @@
                 android:layout_marginBottom="8dp"
                 >
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/TextContent.BodyMedium.Bold"
                     android:text="@string/display"
                     android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
                     />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextContent.BodyMedium.Gray"
                     android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/content_specs_display"
@@ -114,18 +98,14 @@
                 >
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/TextContent.BodyMedium.Bold"
                     android:text="@string/size"
                     android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
                     />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextContent.BodyMedium.Gray"
                     android:text="@string/content_specs_size"
                     android:layout_weight="1"
-                    android:textSize="14sp"
                     />
             </TableRow>
 
@@ -134,26 +114,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/TextContent.BodyMedium.Bold"
                     android:layout_marginEnd="16dp"
                     android:textSize="14sp"
                     android:text="@string/battery" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextContent.BodyMedium.Gray"
                     android:layout_weight="1"
-                    android:textSize="14sp"
                     android:text="@string/content_specs_battery" />
             </TableRow>
         </TableLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
             android:text="@string/seller"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"/>
 
         <RelativeLayout
@@ -173,8 +147,7 @@
                 />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextContent.BodyMedium.Gray"
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/profile_img"
                 android:text="@string/my_name" />
@@ -182,12 +155,9 @@
         </RelativeLayout>
 
         <Button
+            style="@style/ButtonGeneral.SecondaryVariant"
             android:text="@string/buy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp" />
+            />
 
     </LinearLayout>
 
